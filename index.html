@@ -20,14 +20,20 @@
       body {
         font-family: "Source Sans Pro", sans-serif;
       }
+      header {
+        background-image: url(assets/home.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
     </style>
   </head>
   <body class="text-gray-700 bg-white">
-    <header class="bg-pink-200">
+    <header class="bg-white">
       <nav>
         <div class="container flex items-center justify-between mx-auto px-6 py-2">
           <a
-            class="text-2xl font-bold md:text-4xl"
+            class="text-2xl text-white font-bold md:text-4xl"
             href=""
             >Raydrive</a
           >
@@ -44,7 +50,7 @@
             </button>
           </div>
           <div class="hidden lg:block">
-            <ul class="inline-flex">
+            <ul class="inline-flex text-white">
               <li>
                 <a
                   href="/"
@@ -55,14 +61,14 @@
               <li>
                 <a
                   href="#features"
-                  class="px-4 hover:text-gray-800"
+                  class="px-4 hover:text-gray-400"
                   >Features</a
                 >
               </li>
               <li>
                 <a
                   href="#about"
-                  class="px-4 hover:text-gray-800"
+                  class="px-4 hover:text-gray-400"
                   >About</a
                 >
               </li>
@@ -73,16 +79,22 @@
       <!-- Hero Section -->
       <div class="py-20">
         <div class="container mx-auto px-6">
-          <h2 class="text-4xl font-bold mb-2 text-black">Raydrive Online Photo Storage Application</h2>
-          <h3 class="text-2xl mb-8 text-gray-700">A Smarter way to store your photos on the web, and retrieve anytime and anywhere!</h3>
-          <button class="bg-white font-bold rounded-lg py-4 px-8 shadow-lg uppercase tracking-wider hover:bg-gray-200 hover:text-white"><a href="">Go to the App</a></button>
+          <h2 class="text-4xl text-white font-bold mb-2 text-black">Raydrive Online Photo Storage Application</h2>
+          <h3 class="text-2xl mb-8 text-white">A Smarter way to store your photos on the web, and retrieve anytime and anywhere!</h3>
+          <button class="bg-white font-bold rounded-lg py-4 px-8 shadow-lg uppercase tracking-wider hover:bg-blue-200 hover:text-white hover:font-bold">
+            <a
+              target="_blank"
+              href="https://raydrive-7b649.web.app/"
+              >Visit the App</a
+            >
+          </button>
         </div>
       </div>
     </header>
     <!-- Feature Sections -->
     <section
       id="features"
-      class="container px-6 mx-auto p-10"
+      class="container px-6 mx-auto p-10 bg-slate-50"
     >
       <h2 class="font-bold text-4xl text-center mb-8 text-gray-800">Features</h2>
       <div class="flex items-center flex-wrap mb-20">
@@ -95,7 +107,8 @@
         </div>
         <div class="w-full md:w-1/2">
           <img
-            src="assets/health.svg"
+            class="bg-white rounded"
+            src="assets/upload.png"
             alt="Upload"
           />
         </div>
@@ -103,7 +116,8 @@
       <div class="flex items-center flex-wrap mb-20">
         <div class="w-full md:w-1/2">
           <img
-            src="assets/report.svg"
+            class="img-photo"
+            src="assets/share.png"
             alt="Reporting"
           />
         </div>
@@ -114,14 +128,16 @@
       </div>
       <div class="flex items-center flex-wrap mb-20">
         <div class="w-full md:w-1/2">
-          <h4 class="text-3xl text-gray-800 font-bold mb-3">Syncing</h4>
+          <h4 class="text-3xl text-gray-800 font-bold mb-3">Syncing & Search</h4>
           <p class="text-gray-600 mb-8">
-            Our online storage photo storage application allows you to sync your data across all your mobile devices, allowing sign using your gmail account, providing a seamless experience
+            Raydrive online photo storage application allows you to sync your photo across all your mobile devices, allowing sign using your gmail account, providing a seamless experience. It provide
+            an easy way to search through your photos making for smooth user experience.
           </p>
         </div>
         <div class="w-full md:w-1/2">
           <img
-            src="assets/sync.svg"
+            class="img-photo"
+            src="assets/search.png"
             alt="Syncing"
           />
         </div>
@@ -130,12 +146,72 @@
     <!-- About  -->
     <section
       id="about"
-      class="bg-blue-400"
+      style="background-color: #667eea"
     >
       <div class="container mx-auto px-6 text-center py-20">
         <h2 class="mb-6 text-4xl font-bold text-center text-white">About Raydrive</h2>
-        <p>Tell your story for the app</p>
+        <p class="text-2xl text-white">
+          In a growing and ever expanding world, the changing world of business, the globalization of the world, the rise of social media as the new norms of the society, the demand to stay connected
+          with friends and family, colleagues, the importance of sharing in the moments of joy and to enhance deeper connection, is the undying need for greater innovation and technological
+          advancement. Capturing special moments whether it is vacation with friends and family members, sharing special moments and events in a family and others ceremonies or celebration. Raydrive
+          is an app for the moment, as it helps in capturing those special moments, creating a platform for sharing those moments with everyone on the go, without much hassle.Time limitation was a
+          major constraint for the building of this great app. Raydrive is a personal portfolio project built as part of the requirements of
+          <a
+            class="text-gray-700"
+            target="_blank"
+            href="https://www.alxafrica.com/"
+            >ALX Software Engineering </a
+          >. A school for raising technology enthusiats and the next generation of innovators, using cutting edge technology.
+        </p>
+        <a
+          class="text-2xl underline underline-offset-8 hover:text-blue-400
+          target="_blank"
+          href="https://github.com/Rowlandoka/storageApp_portfolio"
+          >Github repository</a
+        >
       </div>
     </section>
+    <!-- Footer container -->
+    <footer class="bg-gray-100 text-center text-neutral-600 lg:text-left">
+      <div class="flex items-center justify-center border-b-2 border-gray-100 p-6 dark:border-neutral-500 lg:justify-between">
+        <div class="mr-12 hidden lg:block">
+          <span>Get connected on social networks:</span>
+        </div>
+        <!-- Social network icons container -->
+        <div class="flex justify-center">
+          <a
+            target="_blank"
+            href="https://github.com/Rowlandoka"
+            class="mr-6 text-gray-600 hover:underline text-blue-400"
+          >
+            Github
+          </a>
+          <a
+            target="_blank"
+            href="#!"
+            class="mr-6 text-gray-600 hover:underline text-blue-400"
+          >
+            Linkedin
+          </a>
+          <a
+            target="_blank"
+            href="#!"
+            class="mr-6 text-gray-600 hover:underline text-blue-400"
+          >
+            Twitter
+          </a>
+        </div>
+      </div>
+
+      <!--Copyright section-->
+      <div class="bg-gray-100 p-6 text-center">
+        <span>© 2023 Copyright:</span>
+        <a
+          class="font-semibold text-neutral-600"
+          href="https://raydrive-7b649.web.app/"
+          >Raydrive</a
+        >
+      </div>
+    </footer>
   </body>
 </html>
