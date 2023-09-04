@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700"
+      rel="stylesheet"
+    />
+    <title>Raydrive Storage App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="styles.css"
+    />
+    <style>
+      body {
+        font-family: "Source Sans Pro", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="text-gray-700 bg-white">
+    <header class="bg-pink-200">
+      <nav>
+        <div class="container flex items-center justify-between mx-auto px-6 py-2">
+          <a
+            class="text-2xl font-bold md:text-4xl"
+            href=""
+            >Raydrive</a
+          >
+          <div class="block md:hidden">
+            <button class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-800 hover: border-teal-500 appearance-none focus:outline-none">
+              <svg
+                class="fill-current h-3 w-3"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+              </svg>
+            </button>
+          </div>
+          <div class="hidden lg:block">
+            <ul class="inline-flex">
+              <li>
+                <a
+                  href="/"
+                  class="px-4 font-bold"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#features"
+                  class="px-4 hover:text-gray-800"
+                  >Features</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="px-4 hover:text-gray-800"
+                  >About</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Hero Section -->
+      <div class="py-20">
+        <div class="container mx-auto px-6">
+          <h2 class="text-4xl font-bold mb-2 text-black">Raydrive Online Photo Storage Application</h2>
+          <h3 class="text-2xl mb-8 text-gray-700">A Smarter way to store your photos on the web, and retrieve anytime and anywhere!</h3>
+          <button class="bg-white font-bold rounded-lg py-4 px-8 shadow-lg uppercase tracking-wider hover:bg-gray-200 hover:text-white"><a href="">Go to the App</a></button>
+        </div>
+      </div>
+    </header>
+    <!-- Feature Sections -->
+    <section
+      id="features"
+      class="container px-6 mx-auto p-10"
+    >
+      <h2 class="font-bold text-4xl text-center mb-8 text-gray-800">Features</h2>
+      <div class="flex items-center flex-wrap mb-20">
+        <div class="w-full md:w-1/2">
+          <h4 class="font-bold text-3xl text-gray-800 mb-3">Upload Faster</h4>
+          <p class="text-gray-600 mb-8">
+            Raydrive provides an easy, faster and smarter way to upload your photos and store your photos. You can capture your best moments and share with your friends anytime and anywhere and track
+            your pictures on the go.
+          </p>
+        </div>
+        <div class="w-full md:w-1/2">
+          <img
+            src="assets/health.svg"
+            alt="Upload"
+          />
+        </div>
+      </div>
+      <div class="flex items-center flex-wrap mb-20">
+        <div class="w-full md:w-1/2">
+          <img
+            src="assets/report.svg"
+            alt="Reporting"
+          />
+        </div>
+        <div class="w-full md:w-1/2">
+          <h4 class="font-bold text-3xl text-gray-800 mb-3">Effective Sharing</h4>
+          <p class="text-gray-600 mb-8">Raydrive allows you to share photos and images effective and smartly with friends over a network, and it allows for easy update of photo gallery.</p>
+        </div>
+      </div>
+      <div class="flex items-center flex-wrap mb-20">
+        <div class="w-full md:w-1/2">
+          <h4 class="text-3xl text-gray-800 font-bold mb-3">Syncing</h4>
+          <p class="text-gray-600 mb-8">
+            Our online storage photo storage application allows you to sync your data across all your mobile devices, allowing sign using your gmail account, providing a seamless experience
+          </p>
+        </div>
+        <div class="w-full md:w-1/2">
+          <img
+            src="assets/sync.svg"
+            alt="Syncing"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- About  -->
+    <section
+      id="about"
+      class="bg-blue-400"
+    >
+      <div class="container mx-auto px-6 text-center py-20">
+        <h2 class="mb-6 text-4xl font-bold text-center text-white">About Raydrive</h2>
+        <p>Tell your story for the app</p>
+      </div>
+    </section>
+  </body>
+</html>
